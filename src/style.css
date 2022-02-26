@@ -142,7 +142,9 @@ section,
   padding: min(10vh, 10em) 0;
 }
 
-
+.logo-txt {
+  color: hsla(169, 100%, 16%, 1);
+}
 
 /* //////////////////////
   Utility Classes
