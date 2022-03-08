@@ -6,7 +6,6 @@ author: Shobhith S
 date: 2022-03-08T04:56:29.341Z
 tags:
   - post
-  - featured
 image: /assets/blog/dhanya-skates.jpg
 imageAlt: "Image of Dhanya "
 ---
