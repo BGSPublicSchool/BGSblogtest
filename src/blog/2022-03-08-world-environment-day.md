@@ -6,7 +6,6 @@ author: Shobhith S
 date: 2022-03-08T05:20:30.639Z
 tags:
   - post
-  - featured
 image: /assets/blog/world-environment-day.jpg
 imageAlt: plants being grown on world environment day
 ---
