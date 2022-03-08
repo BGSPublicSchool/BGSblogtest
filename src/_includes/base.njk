@@ -10,11 +10,20 @@
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
+  <div id="preloader"></div>
     {% include 'header.njk' %}
     <main>
         {{ content | safe }}
     </main>
     {% include 'footer.njk' %}
+
+    <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      })
+    </script>
 
     <script>
         if (window.netlifyIdentity) {
