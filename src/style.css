@@ -215,12 +215,13 @@ section,
 .nav-list a {
   color: var(--clr-neutral-900);
   text-decoration: none;
+  padding: 3px;
 }
 
 .nav-list a:focus,
 .nav-list a:hover {
   color: var(--clr-primary-400);
-  text-decoration: underline;
+  border-bottom: 2px solid var(--clr-neutral-500);
 }
 
 /* //////////////////////
@@ -368,6 +369,7 @@ section,
   color: var(--clr-neutral-100);
   font-weight: var(--fw-700);
   border: 2px solid var(--clr-primary-400);
+  transition: all 250ms ease;
 }
 .btn--primary:hover,
 .btn--primary:focus {
@@ -380,6 +382,7 @@ section,
   color: var(--clr-neutral-900);
   font-weight: var(--fw-700);
   border: 2px solid var(--clr-neutral-900);
+  transition: all 250ms ease;
 }
 
 .btn--neutral:hover,
